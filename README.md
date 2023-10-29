@@ -6,5 +6,7 @@ Whether you're a beginner looking to learn about API integration or an experienc
 this project can serve as a valuable reference.
 ![image](https://github.com/Dhaneyl/React-Photo-Gallery-App/assets/90479586/3503cf4d-a248-42bd-8c7a-3b6f1c84260e)
 
+![image](https://github.com/Dhaneyl/React-Photo-Gallery-App/assets/90479586/5ef0c5c7-87a2-43cc-b52e-2a0ec4b5ab60)
+
 
 
