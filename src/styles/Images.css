@@ -1,0 +1,22 @@
+
+.image-card{
+    background-color: #ffff !important;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+div img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+div .description{
+    margin: 1rem 0.5rem;
+    font-size: 1.33333rem;
+}
+@media(min-width:768px){
+    div .description{
+        font-size: 1.5rem;
+    }
+  }
