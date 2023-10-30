@@ -8,5 +8,7 @@ this project can serve as a valuable reference.
 
 ![image](https://github.com/Dhaneyl/React-Photo-Gallery-App/assets/90479586/5ef0c5c7-87a2-43cc-b52e-2a0ec4b5ab60)
 
+you can access to the app by using this URL: https://react-gallery-app3.netlify.app/
+
 
 
