@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import LoadingSpinner from './components/LoadingSpinner';
 import ImageComponent from './components/Images';
 import Modal from './components/Modal';
+import ScrollToTopButton from './components/ScrollToTopButton';
 import '../src/styles/App.css'
 
 const apiUrl = 'https://jsonplaceholder.typicode.com/photos';
@@ -51,6 +52,7 @@ function ApiExample() {
     : data;
 
   return (
+    <>
     <div className='main-container'>
       <div className='header'>
         <h1>API Photos Example</h1>
@@ -70,10 +72,11 @@ function ApiExample() {
           { 
             filteredData.map((item) => (
             <li key={item.id} onClick={() => openModal(item.url)}>
-              <ImageComponent image={item.url} text={item.title} />
+              <ImageComponent image={item?.url ? item.url : 'C:\Users\dhani\Downloads\photo-API\src\assets\depositphotos_247872612-stock-illustration-no-image-available-icon-vector.jpg'} text={item.title} />
             </li>
           
           ))}
+          <ScrollToTopButton/>
         </div>
         : <div className='no-data'>
         <p>
@@ -85,7 +88,10 @@ function ApiExample() {
       {showModal && (
         <Modal imageUrl={selectedImage} alt="Full-screen-photo" onClose={closeModal} />
       )}
+      
     </div>
+   
+    </>
   );
 }
 

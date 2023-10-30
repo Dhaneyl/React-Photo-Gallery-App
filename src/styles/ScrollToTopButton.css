@@ -1,0 +1,22 @@
+
+
+.scroll-to-top {
+    /* display: block; */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .scroll-to-top .visible {
+    display: block;
+  }
+  
+
+  
